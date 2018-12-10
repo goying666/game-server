@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+        xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <!--<body>-->
+        <!--<h1 th:inline="text">Hello.v.2</h1>-->
+        <!--<p th:text="${hello}"></p>-->
+    <!--</body>-->
+    <script>
+        function displayDate(){
+            document.getElementById("demo").innerHTML=Date();
+        }
+    </script>
+    </head>
+    <body>
+
+    <h1>我的第一个 JavaScript 程序</h1>
+    <p id="demo">这是一个段落</p>
+
+    <button type="button" onclick="displayDate()">显示日期</button>
+
+    </body>
+</html>
